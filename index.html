@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Gallery with Lightbox & Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <h1>VistaVault</h1>
+  
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search for images...">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <div class="gallery" id="gallery"></div>
+    <div class="spinner" id="spinner"></div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="prev">&#10094;</div>
+        <div class="next">&#10095;</div>
+        <button id="slideshow-toggle">▶️ Slideshow</button>
+    </div>
+
+       <script src="script.js"></script>
+</body>
+</html>
